@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<title>Playbundle</title>
+		<meta name="description" content="" />
+		<meta name="author" content="fct" />
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+		<link rel="stylesheet" type="text/css" href="../Vista/css/estilos-general.css" />
+		<!-- HOJA DE ESTILOS CSS GENERAL -->
+		<link rel="stylesheet" type="text/css" href="../Vista/css/index.css" />
+		<!-- HOJA DE ESTILOS CSS PROPIA -->
+		<script type="text/javascript" src="../Control/plugins/jquery-1.9.0.min.js"></script>
+		<!-- JQUERY -->
+		<script type="text/javascript" src="../Control/funciones-general.js"></script>
+		<script type="text/javascript" src="../Vista/javascript/index.js"></script>
+
+		<!-- <link rel="shortcut icon" href="" /> AQUI PONDREMOS LA RUTA DE NUESTRO ICONO (EN HREF) -->
+
+	</head>
+
+	<body>
+		<!-- <div id="fondo_index"> -->
+		<div class="main_container">
+			<header>
+				<img src="img/logo_small.png" />
+				<hr />
+				<ul>
+					<li>
+						<input id="email" name="email" type="email" placeholder="email">
+					</li>
+					<li>
+						<button id="suscripcion" onclick="suscribirse()">Suscribete!</button>
+					</li>
+				</ul>
+			</header>
+			<nav>
+				<ul>
+					<li>
+						<a href="">Home</a>
+					</li>
+					<li>
+						<a href="">Home</a>
+					</li>
+					<li>
+						<a href="">Home</a>
+					</li>
+					<li>
+						<a href="">Home</a>
+					</li>
+					<li>
+						<a href="">Home</a>
+					</li>
+					<li>
+						<a href="">Home</a>
+					</li>
+					<li>
+						<a href="">Home</a>
+					</li>
+					<li>
+						<a href="">Home</a>
+					</li>
+					<li>
+						<a href="">Home</a>
+					</li>
+				</ul>
+			</nav>
+
+			<div id="contenido">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat mollis dapibus. Vestibulum vehicula congue imperdiet. In odio tortor, fringilla non elementum quis, commodo eget tellus. Donec nec ipsum vitae magna tempus aliquet. Nulla tristique faucibus nisi nec auctor. Etiam lobortis dolor sed est interdum aliquet. Maecenas gravida nisi et ipsum facilisis non mollis dui congue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+					Integer et mauris ac felis tristique suscipit ut eu turpis. Vivamus a odio in nunc tincidunt imperdiet vel posuere nunc. Phasellus lectus ipsum, rhoncus placerat pharetra tempor, imperdiet vitae lectus. Proin porttitor blandit diam, vel pharetra metus dignissim et. Mauris commodo hendrerit risus, sed dignissim elit accumsan non. Sed tempus, urna eget dignissim tempus, ante mauris posuere tortor, eu accumsan mauris metus in sapien. Nullam eu erat lectus. Pellentesque a tellus risus, id venenatis urna. Nam mollis viverra egestas. Quisque at magna quam, eu luctus sem. Quisque quis molestie libero. Aenean vel odio felis. Mauris sollicitudin quam ut justo feugiat vehicula lacinia dui mattis.
+
+					Curabitur non justo nulla. Nam non viverra odio. Sed tincidunt tincidunt urna, in pulvinar nisi tristique ac. Fusce eu ligula et est tempus aliquet. Integer dolor sapien, gravida eget rhoncus ac, tincidunt sed risus. Pellentesque porttitor libero dolor, eu vehicula justo. Nunc eget sem sit amet purus consequat tincidunt. Nulla mattis, diam id tempus gravida, ipsum ligula eleifend diam, ac tristique mauris justo nec arcu. Aliquam ut ipsum quis lacus porta tristique. Nunc pharetra turpis quis augue rutrum ultricies laoreet sem placerat. Ut dapibus magna sit amet mauris cursus vestibulum id eget neque.
+
+					Maecenas sed sem eu eros mollis mattis sed a massa. Donec ac arcu ullamcorper ipsum ullamcorper sollicitudin. Mauris tempus purus sed mi fermentum imperdiet viverra nisl hendrerit. In ac odio eget nulla euismod ullamcorper nec in urna. Sed in libero quis risus ullamcorper facilisis. Quisque varius volutpat dui laoreet auctor. Aenean sed eros eget magna commodo lobortis id eu justo. Suspendisse in purus nisl.
+
+					Praesent suscipit euismod nunc, nec sagittis sem vestibulum ac. In semper neque ac velit euismod vitae gravida arcu ultricies. Vestibulum viverra ipsum et odio tempor ut mattis quam congue. Nunc lacinia enim pellentesque dolor dapibus dapibus. Fusce posuere convallis urna, ut rhoncus nulla imperdiet id. Mauris ut diam vitae nisl elementum lobortis bibendum quis sem. Donec urna lectus, luctus et mollis vel, mollis vel purus.
+				</p>
+			</div>
+
+			<footer>
+				<hr />
+				<p>
+					&copy; Copyright  by David, Enrique &amp; Josue
+				</p>
+			</footer>
+		</div>
+		<!--</div> -->
+	</body>
+</html>

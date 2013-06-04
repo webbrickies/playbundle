@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<title>Playbundle</title>
+		<meta name="description" content="" />
+		<meta name="author" content="fct" />
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+		<link rel="stylesheet" type="text/css" href="../Vista/css/estilos-general.css" />
+		<!-- HOJA DE ESTILOS CSS GENERAL -->
+		<link rel="stylesheet" type="text/css" href="../Vista/css/index.css" />
+		<!-- HOJA DE ESTILOS CSS PROPIA -->
+
+		<!-- CONTROL -->
+		<script type="text/javascript" src="../Control/plugins/jquery-1.9.0.min.js"></script>
+		<!-- JQUERY -->
+		<script type="text/javascript" src="../Control/funciones-general.js"></script>
+		<script type="text/javascript" src="../Control/funciones-registro.js"></script>
+		<!-- VISTA -->
+		<script type="text/javascript" src="../Vista/javascript/index.js"></script>
+
+		<!-- <link rel="shortcut icon" href="" /> AQUI PONDREMOS LA RUTA DE NUESTRO ICONO (EN HREF) -->
+
+	</head>
+
+	<body>
+		<!-- <div id="fondo_index"> -->
+		<div class="main_container">
+
+			<header>
+				<div id="menu_horizontal_superior">
+					<ul id="social">
+						<li>
+							<a href="http://www.twitter.com" target="_blank"><img src="img/social_twitter.png" /></a>
+						</li>
+						<li>
+							<a href="http://www.facebook.com" target="_blank"><img src="img/social_facebook.png" /></a>
+						</li>
+						<li>
+							<a href="https://plus.google.com" target="_blank"><img src="img/social_google.png" /></a>
+						</li>
+					</ul>
+					<ul id="login">
+						<li>
+							<a href="">Blog</a>
+						</li>
+						<li>
+							<a href="">Login / Registrarse</a>
+						</li>
+					</ul>
+				</div>
+				<hr />
+				<div id="menu_horizontal_medio">
+					<a href=""><img src="img/logo_small.png" /></a>
+				</div>
+				<hr />
+				<div id="menu_horizontal_inferior">
+					<ul id="suscripcion">
+						<li>
+							Recibe noticias sobre los pr&oacute;ximos bundles:
+							<input id="email" name="email" type="email" placeholder="tu@email.com">
+						</li>
+						<li>
+							<button id="suscribir" onclick="vista_suscribir()">
+								Suscribete!
+							</button>
+						</li>
+						<li id="carga_ajax">
+							...guardando...
+						</li>
+					</ul>
+				</div>
+				<hr />
+			</header>
+
+			<div id="bundle_actual">
+
+				<h1>Nombre del bundle</h1>
+
+				<div id="descripcion">
+					<iframe frameborder="0" allowfullscreen="" class="youtube-embed-forceload" data-width="620" data-height="380" data-video-id="1ov-XrTemVI" data-playervar-rel="0" data-playervar-wmode="transparent" id="yt-j2fkw" title="YouTube video player" height="380" width="620" src="https://www.youtube.com/embed/1ov-XrTemVI?rel=0&amp;wmode=transparent&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.humblebundle.com"></iframe>
+					<p>
+						Descripcion general del bundle actual Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus enim sit amet metus hendrerit posuere. Etiam eleifend, eros lobortis bibendum rhoncus, purus odio sodales est, ut tristique metus metus a lectus. Praesent nec sem eu est fringilla rhoncus eget ac justo. Morbi mauris sem, gravida id hendrerit non, venenatis sit amet magna.
+					</p>
+				</div>
+
+				<nav>
+					<ul>
+						<li>
+							<a href="">Precio minimo: 1€</a>
+						</li>
+						<li>
+							<a href="">Oferta de precio medio</a>
+						</li>
+						<li>
+							<a href="">COMPRAR</a>
+						</li>
+						<li>
+							<a href="">Bundles comprados: 7.568</a>
+						</li>
+						<li>
+							<a href="">Tiempo Restante:
+							<br />
+							1 d&iacute;a 14:12:10</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div id="detalles">
+					<h1>Detalles del bundle</h1>
+					<p>
+						Sed rutrum eros a enim porttitor ut consequat magna dapibus. Pellentesque ultrices lobortis adipiscing. Cras sit amet semper elit. Donec ac libero eget quam vestibulum lobortis non sit amet nisi. Suspendisse ut porttitor leo. Sed faucibus scelerisque ultrices. Curabitur faucibus felis vel neque mattis egestas posuere sem convallis. Sed lectus purus, consectetur blandit ultrices sed, sodales id sapien.
+					</p>
+				</div>
+
+			</div>
+			
+			<div id="estadisticas">
+				<h1>Estadisticas de compra</h1>
+				<p>
+					Aqui se pondrian graficas para comparar los resultados de las ventas del bundle actual, una lista de usuarios que son los
+					que mas han contribuido etc...
+				</p>
+			</div>
+			
+			<div id="comprar">
+				<h1>Comprar este bundle!</h1>
+				<p>
+					Aqui pondremos el formulario de compra del bundle con los distintos tipos de elementos UI para hacer comoda la compra y 
+					las opciones de pago con paypal y otros con su debido plugin
+				</p>
+			</div>
+
+			<footer>
+				<hr />
+				<p>
+					&copy; Copyright  by David, Enrique &amp; Josue
+				</p>
+			</footer>
+		</div>
+		<!--</div> -->
+	</body>
+</html>
