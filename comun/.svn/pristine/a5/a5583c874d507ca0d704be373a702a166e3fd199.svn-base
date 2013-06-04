@@ -1,0 +1,38 @@
+<?php
+
+/* CONEXION A LA BASE DE DATOS */
+
+include_once 'metodosBD.php';
+
+$conexion = conectar_mysql("127.0.0.1:3306", "root", "");
+if ($conexion) {
+	seleccionar_charset("utf8", $conexion);
+	seleccionar_bd("playbundle", $conexion);
+	//print "Conexion realizada con exito!";
+}
+
+/* FIND DE LA CONEXION */
+
+/*---------------------------------------------------------*/
+
+/* PROBAR CODIGO AQUI */
+
+	//funcion de prueba
+	function funcion_de_prueba($email){
+		$existe = false;
+		$consulta = mysql_query("SELECT email FROM suscritos WHERE email = '$email'");
+		while ($fila = mysql_fetch_array($consulta, MYSQL_ASSOC)) {// WHILE PARA RECORRER TODOS LOS VALORES DE LA CONSULTA
+			if($fila['email']== $email){
+				$existe = true;
+			}
+		}
+		return $existe;
+	}
+	
+	$prueba = funcion_de_prueba("davidjaya@gmail.es");
+	var_dump($prueba);
+
+/* FIN DEL CODIGO DE PRUEBA */
+
+
+?>

@@ -1,0 +1,123 @@
+body {
+	background-image: url(../img/fondo.jpg);
+	background-repeat: repeat
+}
+
+/*#fondo_index { background-image: url(../img/clean.jpg); background-repeat: repeat }*/
+
+header {
+	float: left;
+	width: 100%;
+	padding-top: 20px;
+	text-align: center
+}
+
+header div#menu_horizontal_superior {
+	position: relative;
+	height: 50px;
+	background-color: #FFFFFF;
+	border-bottom: 5px solid #333333;
+}
+
+header div#menu_horizontal_medio {
+	background-color: transparent;
+	height: 191px;
+}
+
+header div#menu_horizontal_inferior {
+	position: relative;
+	height: 60px;
+	padding-top: 15px;
+	background-color: #FFFFFF;
+	border-top: 5px solid #333333;
+}
+
+header div#menu_horizontal_inferior ul li#carga_ajax {
+	letter-spacing: 1px;
+}
+
+header ul#suscripcion {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+header ul {
+	text-align: right;
+}
+
+header ul li {
+	display: inline;
+}
+
+header ul#social {
+	text-align: left;
+	position: relative;
+}
+
+header ul#social li {
+	margin: 5px;
+}
+
+header ul#login {
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	height: 20px;
+}
+
+header ul#login li {
+	text-align: center;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+
+header ul#login li a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #222;
+	border-radius: 7px;
+	padding: 5px;
+}
+
+header h1 {
+	font-family: 'Denk One', sans-serif;
+	font-size: 30px;
+	text-align: center
+}
+
+header hr {
+	margin-top: 20px;
+}
+
+header div#menu_horizontal_superior ul#login li a {
+	background: #f4b61b;
+	border: #222222 1px solid;
+}
+
+header div#menu_horizontal_superior ul#login li a:hover {
+	background: #222;
+	color: #F4B61B;
+	border: #F4B61B 1px solid;
+}
+
+footer {
+	float: left;
+	width: 100%;
+	padding-bottom: 20px;
+	background-color: #222222;
+	color: #fafafa;
+}
+
+#footer-content {
+	height: 150px;
+	background-color: #333333;
+	color: #fafafa;
+}
+
+#blog-content { background-color: #f0f0f0; color: #222222; padding: 10px; }
+h2 { text-align: center; font-weight: bold; font-size: 20px; margin-bottom: 10px; }
+
+footer p {
+	text-align: center;
+}

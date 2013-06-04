@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<title>Playbundle</title>
+		<meta name="description" content="" />
+		<meta name="author" content="fct" />
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+		<link rel="stylesheet" type="text/css" href="../Vista/css/estilos-general.css" />
+		<!-- HOJA DE ESTILOS CSS GENERAL -->
+		<link rel="stylesheet" type="text/css" href="../Vista/css/blog.css" />
+		<!-- HOJA DE ESTILOS CSS PROPIA -->
+
+		<!-- JQUERY y PLUGINS -->
+		<script type="text/javascript" src="../Control/plugins/jquery-1.9.0.min.js"></script>
+
+		<!-- MODELO -->
+		<script type="text/javascript" src="../Modelo/modelo.js"></script>
+		<!-- CONTROL -->
+		<script type="text/javascript" src="../Control/funciones-general.js"></script>
+		<script type="text/javascript" src="../Control/funciones-registro.js"></script>
+		<!-- VISTA -->
+		<script type="text/javascript" src="../Vista/javascript/index.js"></script>
+
+		<!-- <link rel="shortcut icon" href="" /> AQUI PONDREMOS LA RUTA DE NUESTRO ICONO (EN HREF) -->
+
+	</head>
+
+	<body>
+		<!-- <div id="fondo_index"> -->
+		<div class="main_container">
+
+			<header>
+				<div id="menu_horizontal_superior">
+					<ul id="social">
+						<li>
+							<a href="http://www.twitter.com" target="_blank"><img src="img/social_twitter.png" /></a>
+						</li>
+						<li>
+							<a href="http://www.facebook.com" target="_blank"><img src="img/social_facebook.png" /></a>
+						</li>
+						<li>
+							<a href="https://plus.google.com" target="_blank"><img src="img/social_google.png" /></a>
+						</li>
+					</ul>
+					<ul id="login">
+						<li>
+							<a href="index.html">Playbundle</a>
+						</li>
+						<li>
+							<a href="">Login / Registrarse</a>
+						</li>
+					</ul>
+				</div>
+				<div id="menu_horizontal_medio">
+					<a href=""><img src="img/playbundle.png" /></a>
+				</div>
+				<div id="menu_horizontal_inferior">
+					<ul id="suscripcion">
+						<li>
+							Recibe noticias sobre los pr&oacute;ximos bundles:
+							<input id="email" name="email" type="email" placeholder="tu@email.com">
+						</li>
+						<li>
+							<button id="suscribir" onclick="vista_suscribir()">
+								Suscribete!
+							</button>
+						</li>
+						<li id="carga_ajax">
+							...guardando...
+						</li>
+						<li id="resultado_ajax">
+
+						</li>
+					</ul>
+				</div>
+			</header>
+
+			<div id="blog-content">
+				<section>
+					<article>
+						<h2>TITULO DE LA ENTRADA</h2>
+						<p>
+							Kinda hot in these rhinos. here she comes to wreck the day. hey, maybe i will give you a call sometime. your number still 911? alrighty then we got no food we got no money and our pets heads are falling off! haaaaaaarry. hey, maybe i will give you a call sometime. your number still 911? it's because i'm green isn't it! here she comes to wreck the day. brain freeze. we're going for a ride on the information super highway. kinda hot in these rhinos. i just heard about evans new position,good luck to you evan backstabber, bastard, i mean baxter.
+							Look ma i'm road kill it's because i'm green isn't it! here she comes to wreck the day. look ma i'm road kill your entrance was good, his was better. i just heard about evans new position,good luck to you evan backstabber, bastard, i mean baxter. we're going for a ride on the information super highway. hey, maybe i will give you a call sometime. your number still 911? brain freeze. it's because i'm green isn't it! excuse me, i'd like to ass you a few questions. look at that, it's exactly three seconds before i honk your nose and pull your underwear over your head.
+						</p>
+					</article>
+				</section>
+				<hr />
+				<article>
+						<h2>TITULO DE LA ENTRADA</h2>
+						<p>
+							Kinda hot in these rhinos. here she comes to wreck the day. hey, maybe i will give you a call sometime. your number still 911? alrighty then we got no food we got no money and our pets heads are falling off! haaaaaaarry. hey, maybe i will give you a call sometime. your number still 911? it's because i'm green isn't it! here she comes to wreck the day. brain freeze. we're going for a ride on the information super highway. kinda hot in these rhinos. i just heard about evans new position,good luck to you evan backstabber, bastard, i mean baxter.
+							Look ma i'm road kill it's because i'm green isn't it! here she comes to wreck the day. look ma i'm road kill your entrance was good, his was better. i just heard about evans new position,good luck to you evan backstabber, bastard, i mean baxter. we're going for a ride on the information super highway. hey, maybe i will give you a call sometime. your number still 911? brain freeze. it's because i'm green isn't it! excuse me, i'd like to ass you a few questions. look at that, it's exactly three seconds before i honk your nose and pull your underwear over your head.
+						</p>
+					</article>
+			</div>
+
+			<footer>
+				<div id="footer-content">
+
+				</div>
+				<div id="copyright">
+					<p>
+						&copy; Copyright  by David, Enrique &amp; Josue
+					</p>
+				</div>
+			</footer>
+		</div>
+		<!--</div> -->
+	</body>
+</html>
